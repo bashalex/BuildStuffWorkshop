@@ -24,6 +24,7 @@ You may potentially face [this issue](https://github.com/trufflesuite/truffle/is
 # Truffle console
 ```
 token = CryptoBirds.at('0x263f5d9ecc94405b6ba056afe2c9ef8424caf818');
+me = web3.eth.accounts[0];
 token.balanceOf.call(me).then(function(balance) { console.log(balance.toNumber()) });
 token.buy({value: 10e18});
 ```
