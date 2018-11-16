@@ -18,5 +18,12 @@ You can use [this faucet](https://gitter.im/kovan-testnet/faucet) to get some Ko
 5. `yarn migrate --reset` - deploys contracts
 6. `yarn serve` - serves frontend
 
+# Truffle console
+```
+token = CryptoBirds.at('0x263f5d9ecc94405b6ba056afe2c9ef8424caf818');
+token.balanceOf.call(me).then(function(balance) { console.log(balance.toNumber()) });
+token.buy({value: 10e18});
+```
+
 ## Authors
 Powered by Alex Bash @ Zerion
