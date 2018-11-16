@@ -10,13 +10,16 @@ You can use [this faucet](https://gitter.im/kovan-testnet/faucet) to get some Ko
 
 [ERC721](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC721) contracts by OpenZeppelin
 
+You may potentially face [this issue](https://github.com/trufflesuite/truffle/issues/734#issuecomment-358528186)
+
 ## Get started
 1. Install [Yarn](https://yarnpkg.com/lang/en/docs/install/)
-2. `yarn build` - builds contracts.
-3. `yarn ganache` - runs ganache (a local test ethereum network).
-4. `yarn test` - runs tests
-5. `yarn migrate --reset` - deploys contracts
-6. `yarn serve` - serves frontend
+2. `yarn install` - installs all dependencies
+3. `yarn build` - builds contracts.
+4. `yarn ganache` - runs ganache (a local test ethereum network).
+5. `yarn test` - runs tests
+6. `yarn migrate --reset` - deploys contracts
+7. `yarn serve` - serves frontend
 
 # Truffle console
 ```
