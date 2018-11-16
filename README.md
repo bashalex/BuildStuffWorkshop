@@ -1,6 +1,6 @@
 # Crypto Birds
 
-<img hight="180" width="360" alt="current" src="./assets/screenshot.png">
+<img hight="180" width="720" alt="screenshot" src="./assets/screenshot.PNG">
 
 ## Useful links
 
