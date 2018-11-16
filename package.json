@@ -1,0 +1,42 @@
+{
+  "name": "ERC721Workshop",
+  "version": "1.0.0",
+  "description": "Unique non-fungible Tokens",
+  "author": "Alex Bash alexey@zerion.io",
+  "scripts": {
+    "test": "truffle test",
+    "console": "truffle console",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "build": "truffle build",
+    "serve": "truffle serve",
+    "ganache": "node_modules/.bin/ganache-cli -m \"endless kangaroo panic child mule thumb hover chase circle goddess swarm resemble\" -e 100 -p 8545"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeriontech/buildstuff-workshop.git"
+  },
+  "engines": {
+    "yarn": "^1.12.3"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.23.0",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.0",
+    "ganache-cli": "^6.1.0",
+    "openzeppelin-solidity": "2.0.0",
+    "solidity-coverage": "^0.5.11",
+    "solium": "^1.1.8",
+    "truffle": "^4.1.14",
+    "truffle-default-builder": "^2.0.0",
+    "truffle-hdwallet-provider": "^0.0.6",
+    "truffle-contract": "^3.0.5",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
